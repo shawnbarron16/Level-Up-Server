@@ -7,4 +7,12 @@
     "python.linting.pylintArgs": [
         "--django-settings-module=levelup.settings",
     ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Level Up",
+            "database": "db.sqlite3"
+        }
+    ],
 }
